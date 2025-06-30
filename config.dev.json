@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "chitronbhattacharjee35@gmail.com",
-    "password": "chitron@2448766",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": null,
     "proxy": null,
@@ -14,19 +14,19 @@
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
   "adminOnly": {
     "enable": false,
-    "ignoreCommand": ["emojireply.js"]
+    "ignoreCommand": [""]
   },
   "adminBot": [
-    "100081330372098",
+    "100012191281263",
     ""
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": ["100081330372098"],
+    "whiteListIds": ["100012191281263"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "[+]×𝐒𝐡𝐢𝐏𝐮 𝐀𝐢🤖💨",
-  "prefix": "+",
+  "prefix": ".",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://shipuaimirai:chitron%402448766@shipuaimiraibot.nwesgqa.mongodb.net/?retryWrites=true&w=majority&appName=ShiPuAiMiraiBot",
@@ -34,7 +34,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Dhaka",
+  "timeZone": "Asia/Karachi",
   "credentials": {
     "gmailAccount": {
       "email": "fariasdipto@gmail.com",
